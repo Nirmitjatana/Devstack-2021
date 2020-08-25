@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Devstack20'</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Official website for DevStack'20 by DSC VIT Vellore.">
+  <meta name="keywords"
+    content="DevJams,DevStack,DevTalks,Hackathons,VIT,Vellore,Devfest,Developer Student Clubs,DSC VIT,GDG,Google Developers">
+  <meta name="author" content="Nirmit Jatana">
+  <meta name="copyright" content="DSC VIT">
+  <meta name="url" content="https://devstack20.dscvit.com">
+  <meta name="category" content="Hackathons">
+  <meta name="coverage" content="Worldwide">
+  <meta name="rating" content="General">
+  <meta name="og:email" content="dscvitvellore@gmail.com">
+  <meta name="og:country-name" content="India">
+  <meta name="og:region" content="Chennai, Bangalore, Bengaluru, Kolkata, Calcutta, Mumbai, Delhi, Gurgaon, Vellore">
+  <meta name="og:site_name" content="DevStack">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="DevStack">
+  <meta property="og:description" content="Official website for DevStack'20 by DSC VIT Vellore.">
+  <meta property="og:url" content="https://DevStack20.dscvit.com">
+  <meta property="og:site_name" content="DevStack">
+  <meta itemprop="name" content="DevStack">
+  <meta itemprop="description" content="Official website for DevStack'20 by DSC VIT Vellore.">
+  <link rel="canonical" href="https://DevStack20.dscvit.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href='//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800' 
+rel='stylesheet' type='text/css'>
+<link rel="icon" href="./Assets/favicon.png">
+<link rel="apple-touch-icon" href="./Assets/favicon.png">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/nav.css">
+</head>
+<body onload="loader();">
+  <div class="loader" id="loader">
+    <img src="./Assets/loader.gif" alt="">
+  </div>
+    <div class="parent" id="parent">
+        
+    <nav id="navbar">
+        
+        <div class="hamburger" id="hamburger-6">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+          
+            <div class="logo">
+              <a href="#home" >
+                <img src="./Assets/DSC_logo.png" alt=""  class="logo1">
+                <img src="./Assets/DSC_logo1.png" alt="" class="logo2">
+              </a>
+            </div>
+          
+        <ul class="nav-links">
+            
+            <li class="navigation__link" data-aos="fade-right" data-aos-duration="400" ><a href="#home" >Home</a></li>
+            <li data-aos="fade-up" data-aos-duration="600" ><a href="#devtalks"  class="navigation__link">DevTalks</a></li>
+            <li data-aos="fade-up" data-aos-duration="700" ><a href="#devjams"  class="navigation__link">DevJams</a></li>
+            <li data-aos="fade-up" data-aos-duration="800" ><a href="#aboutdsc"  class="link">AboutDSC</a></li>
+            <!-- <li data-aos="fade-up" data-aos-duration="900" data-aos-anchor-placement="bottom-bottom" ><a href="#timeline"  class="link">Timeline</a></li> -->
+            <li data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom" ><a href="#sponsers"  class="link">Sponsers</a></li>
+            <li data-aos="fade-up" data-aos-duration="1100" data-aos-anchor-placement="bottom-bottom" ><a href="#contactus" class="link">Contact Us</a></li> 
+        </ul>
+    </nav>
+    <script>
+      var i = 0;
+      var txt = 'Lorem ipsum dolor sit amet, nirmit is here testing the typing effect in website which is awesome';
+      var speed = 50;
+      
+      function typeWriter() {
+        if (i < txt.length) {
+          document.getElementById("demo").innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        }
+        // AOS.init();
+        // console.log('nj')
+      }
+      function loader(){
+  //       $(window).load(function() {
+  //   $('#loading').hide();
+  // });
+        // document.getElementsById("loader").style.display="none"
+        // document.getElementsById("parent").style.display="block"
+        // document.getElementsByClassName("timelineheading").style.color="red"
+        console.log('loader')
+        document.getElementById("loader").style.display="none"
+        document.getElementById("parent").style.display="block"
+        start();
+      }
+      function start(){
+        setTimeout(typeWriter(),40000);
+        setTimeout(AOS.init(),5000);
+        // setTimeout(function(){ alert("After 5 seconds!"); }, 5000);
+      }
+      </script>
+
+    <div class="page-section hero" id="home">
+      <div class="container" id="homer">
+      <div class="row">
+        <div class="col" id="lefter">
+          <div class="devjams4">
+            <h1>
+              <img src="./Assets/devstack1.png" alt="" class="devtext" data-aos="fade-right" data-aos-duration="300">
+            </h1>
+            <h5 class="opendev" id="demo">
+                
+            </h5>
+              <div class="but3">
+                  <button>Register</button>
+                  <!-- <button class="btn-2"><span>Nirmit</span></button> -->
+              </div>
+              <!-- <div class="white">
+                <a class="btn-layout bt7">Register</a>
+              </div> -->
+
+        </div>
+        </div>
+        <div class="col">
+          <img src="./Assets/main.png" alt="" class="mainimg">
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- devjams -->
+    
+        
+    <div class="page-section" id="devtalks">
+        <div class="container" id="padfix">
+            <div class="row">
+              <div class="col-sm">
+                <div class="devjams1">
+                    <h1 data-aos="fade-right" data-aos-duration="200">DevTalks</h1>
+                    <h5>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                    </h5>
+                    <div class="but">
+                        <button data-aos="fade-right" data-aos-duration="400">Register</button>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="devjams3">
+                    <img src="./Assets/devtalks.png" alt="" class="talkimage" data-aos="fade-right" data-aos-duration="700">
+                </div>
+              </div>
+              
+            </div>
+            <div class="scroller">
+            <a href="#scroll">
+            <svg class="arrows">
+              <path class="a1" d="M0 0 L30 32 L60 0"></path>
+              <path class="a2" d="M0 20 L30 52 L60 20"></path>
+              <path class="a3" d="M0 40 L30 72 L60 40"></path>
+            </svg>
+          </a>
+        </div>
+          </div>
+          
+          <div class="speakers" id="scroll">
+              <h1>Speakers</h1>
+              <div class="center">
+                <div class="front-face">
+                  <div class="contents front">
+                    <p>Nirmit Jatana</p>
+                    <span>Web Developer</span>
+                  </div>
+                </div>
+                <div class="back-face">
+                  <div class="contents back">
+                    <h2>Awesome dev</h2>
+                    <span>Follow me!</span>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <!-- <div class="container8">
+                <div class="card">
+                  <div class="face face1">
+                    <div class="content8">
+                      <h2 style="font-size: 24px;">Nirmit Jatana</h2>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error illum ad dolor laudantium enim ipsa libero adipisci culpa Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error illum ad dolor laudantium enim ipsa libero adipisci culpa </p>
+                      <div class="logos">
+                        <img src="./Assets/linkedin.png" alt="">
+                        <img src="./Assets/twitter.png" alt="">
+                    </div>
+                    </div>
+                  </div>
+                  <div class="face face2">
+                    <h2>
+                      <img src="./Assets/placeholder.jpeg" alt="" style="width:105%;margin-left:-3px">
+                    </h2>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="face face1">
+                    <div class="content8">
+                      <h2 style="font-size: 24px;">Nirmit jatana</h2>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error illum ad dolor laudantium enim ipsa libero adipisci culpa Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error illum ad dolor laudantium enim ipsa libero adipisci culpa </p>
+                      <div class="logos">
+                        <img src="./Assets/linkedin.png" alt="">
+                        <img src="./Assets/twitter.png" alt="">
+                    </div>
+                    </div>
+                  </div>
+                  <div class="face face2">
+                    <h2>
+                      <img src="./Assets/placeholder.jpeg" alt="" style="width:105%;margin-left:-3px">
+                    </h2>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="face face1">
+                    <div class="content8">
+                      <h2 style="font-size: 24px;">Nirmit jatana</h2>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error illum ad dolor laudantium enim ipsa libero adipisci culpa Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error illum ad dolor laudantium enim ipsa libero adipisci culpa </p>
+                      <div class="logos">
+                        <img src="./Assets/linkedin.png" alt="">
+                        <img src="./Assets/twitter.png" alt="">
+                    </div>
+                    </div>
+                  </div>
+                  <div class="face face2">
+                    <h2>
+                      <img src="./Assets/placeholder.jpeg" alt="" style="width:105%;margin-left:-3px">
+                    </h2>
+                  </div>
+                </div>
+              </div> -->
+              
+          </div>
+
+    </div>
+
+<!-- devjams -->
+
+<div class="page-section" id="devjams">
+  <div class="devjams">
+      <div class="container" id="padfix">
+          <div class="row">
+            <div class="col-sm">
+              <div class="devjams1">
+                  <h1 data-aos="fade-right" data-aos-duration="200">DevJams</h1>
+                  <h5>
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                  </h5>
+                  <div class="but">
+                      <button data-aos="fade-right" data-aos-duration="400">Register</button>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="devjams2">
+                  <img src="./Assets/devjams.png" alt="" data-aos="fade-right" data-aos-duration="800">
+              </div>
+            </div>
+          </div>
+        </div>
+  
+  </div>
+  
+</div>
+
+
+
+
+    <!-- aboutdsc -->
+    <div class="page-section" id="aboutdsc">
+        <div class="container" style="text-align: center;" id="padfix">
+            <div class="row">
+              <div class="col">
+                <div class="dsckebaare">
+                    <h1 data-aos="fade-right" data-aos-duration="300" id="typewriter">About DSC</h1>
+                    <h3>DSC VIT powered by Google Developers is a student community at VIT Vellore. We strive to bring about technological innovations among students and we do so by providing a platform for them to exhibit their talents. We are a group of passionate designers, developers and managers who work together to bring about collaborative results that better the lives of everyone around us.</h3>
+                </div>
+                <div class="dsckebaare">
+                    <h1 class="dist" data-aos="fade-right" data-aos-duration="300" id="typewriter">About VIT</h1>
+                    <h3>Vellore Institute of Technology, Vellore VIT, Vellore is one of the top-rated engineering colleges in India. Diversity is the strongest aspect of the institute and the students from various states and nations, the key to its reputation. The university works on ideas and executes tasks of different domains under Clubs and Chapters.</h3>
+                </div>
+              </div>
+              <div class="col">
+                <img src="./Assets/dsc.png" alt="" class="dsc" data-aos="fade-right" data-aos-duration="1000">
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- timeline -->
+    <!-- <div class="page-section" id="timeline">
+        <div class="timeline">
+          <div class="timelineheading">
+            Timeline
+          </div>
+            <img src="./Assets/Timeline.png" alt="">
+        </div>
+        <div class="but">
+            <button data-aos="fade-right" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">Download PDF</button>
+        </div>
+    </div> -->
+
+
+    <!-- sponsers -->
+    <div class="page-section" id="sponsers">
+        <div class="sponserheading">
+            Sponsors
+        </div>
+        <div class="row" >
+            <div class="col">
+                <img src="./Assets/sponser1.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="500">
+            </div>
+            <div class="col">
+                <img src="./Assets/sponser2.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="500">
+            </div>
+            <div class="col">
+                <img src="./Assets/sponser3.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="500">
+            </div>
+            <div class="col">
+                <img src="./Assets/sponser4.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="500">
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col">
+                <img src="./Assets/sponser4.jpeg" alt="" class="spimg"data-aos="fade-up" data-aos-duration="500">
+            </div>
+            <div class="col">
+                <img src="./Assets/sponser3.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="500">
+            </div>
+            <div class="col">
+                <img src="./Assets/sponser2.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="500">
+            </div>
+            <div class="col">
+                <img src="./Assets/sponser1.jpeg" alt="" class="spimg" data-aos="fade-up" data-aos-duration="500">
+            </div>
+          </div>
+          <div class="sponserbuttons">
+              <button data-aos="fade-right" data-aos-duration="1600" data-aos-anchor-placement="bottom-bottom" onclick="window.location.href='./view/sponsor.html'">Sponser Us</button>
+              <button data-aos="fade-right" data-aos-duration="1600" data-aos-anchor-placement="bottom-bottom">Download Brochure</button>
+          </div>
+    </div>
+    <div class="page-section" id="contactus">
+        <div class="contactusheading">
+            Contact Us
+        </div>
+        <div class="row" style="margin:30px auto;width:85vw;">
+            <div class="col">
+              <div class="poc" data-aos="fade-up" data-aos-duration="4000">
+                  <h2 data-aos="fade-right" data-aos-duration="1000">Angad Sharma</h2>
+                  <h3>Point of Contact</h3>
+                  <img src="./Assets/email.png" alt="" style="display: inline-block;">
+                <h3 style="display: inline-block;">angadsharma1016@gmail.com</h3><br>
+                <img src="./Assets/phone.png" alt="" style="display: inline-block;">
+                <h3 style="display: inline-block;">9971673330</h3>
+              </div>
+              <div class="poc" style="margin-top:50px;" data-aos="fade-up" data-aos-duration="4000">
+                <h2 data-aos="fade-right" data-aos-duration="1000">Meherdeep Thakur</h2>
+                <h3>Point of Contact</h3>
+                <img src="./Assets/email.png" alt="" style="display: inline-block;">
+                <h3 style="display: inline-block;">meherdeept@gmail.com</h3><br>
+                <img src="./Assets/phone.png" alt="" style="display: inline-block;">
+                <h3 style="display: inline-block;">8700865402</h3>
+            </div>
+            </div>
+            <div class="col">
+                <div class="contactimg">
+                    <img src="./Assets/contactus.png" alt="">
+                </div>
+                <div class="handles">
+                    <div class="row">
+                        <div class="col left">
+                          <img src="./Assets/instagram.png" alt="">
+                          <a href="https://instagram.com/dscvitvellore">instagram.com/dscvitvellore</a>
+                        </div>
+                        <div class="col">
+                          <img src="./Assets/twitter2.png" alt="">
+                          <a href="https://twitter.com/dscvit">twitter.com/dscvit</a>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col left">
+                          <img src="./Assets/email.png" alt="">
+                          <a href="https:/dscvitvellore@gmail.com">dscvitvellore@gmail.com</a>
+                        </div>
+                        <div class="col">
+                          <img src="./Assets/facebook.png" alt="">
+                          <a href="https://fb.com/dscvitvellore">fb.com/dscvitvellore</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+          </div>
+          <div class="faq">
+          <div class="faqheading">
+              FAQs
+          </div>
+          <div class="row" id="accord">
+            <div class="col-12 col-md-8">
+              <button class="accordion" style="outline: none; margin:4px;">This is the first question by Nirmit</button>
+              <div class="panel" style="margin-left:4px;">
+                <p style="padding:15px 0px;">When you come to Nirmit you'll always get an Answer.</p>
+              </div>
+
+              <button class="accordion" style="outline: none; margin:4px;">Section 2</button>
+              <div class="panel" style="margin-left:4px;">
+                <p style="padding:15px 0px;">Lorem ipsum...</p>
+              </div>
+
+              <button class="accordion" style="outline: none; margin:4px;">Section 3</button>
+              <div class="panel" style="margin-left:4px;">
+                <p style="padding:15px 0px;">Lorem ipsum...</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4">
+              <img src="./Assets/faq.png" alt="" id="faqim">
+            </div>
+          </div>
+          
+          <!-- <div class="row">
+            <div class="col-8">
+                <div class="accordion" id="accordionExample">
+                    <div class="card" style="border-radius:30px;background-color: white;">
+                      <div class="card-header" id="headingOne" style="border-radius:30px;background-color: white;border-style: hidden;">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="color:#4941E0">
+                            1. Do we need to have the entire idea fully working?
+                          </button>
+                        </h2>
+                      </div>
+                  
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body" style="color:#4941E0">
+                            The entire idea need not to be fully implemented however, 
+                            the submission should be functional so that it can be
+                            reviewed by the judges.
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    <div class="card" style="border-radius:30px;background-color: white;">
+                      <div class="card-header" id="headingTwo" style="border-radius:30px;background-color: white;border-style: hidden;">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            2. Do I need to have any specific qualifications to a participant 
+for the Hackathon?
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body" style="color:#4941E0">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    <div class="card" style="border-radius:30px;background-color: white;">
+                      <div class="card-header" id="headingThree" style="border-radius:30px;background-color: white;border-style: hidden;">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            1. Do I need to pay any money to register for the Hackathon?    
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body" style="color:#4941E0">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <img src="./Assets/faq.png" alt="">
+            </div>
+
+          </div> -->
+          <div class="but1">
+            <button>Download Brochure</button>
+          </div>
+        <div class="links">
+            <a href="">CodeofConduct</a>
+            <a href="">PrivacyPolicy</a>
+            <a href="">TermsandConditions</a>
+        </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./JS/nav.js"></script>
+    <script src="./JS/index.js"></script>
+    <!-- <script src="./JS/nav.js"></script> -->
+    <!-- <script>
+      AOS.init();
+    </script> -->
+</body>
+</html>
