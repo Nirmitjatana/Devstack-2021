@@ -43,7 +43,7 @@ $(document).ready(function() {
 $(window).scroll(function() {
   var scrollDistance = $(window).scrollTop();
   $('.page-section').each(function(i) {
-      if ($(this).position().top < scrollDistance + 1) {
+      if ($(this).position().top <= scrollDistance) {
           $('.nav-links li a.active').removeClass('active');
           $('.nav-links li a').eq(i).addClass('active');
           tab=1;
@@ -51,8 +51,6 @@ $(window).scroll(function() {
 
   });
 }).scroll();
-
-// $('.nav-links li a').eq(0).addClass('active');
 
 
 (function($){
