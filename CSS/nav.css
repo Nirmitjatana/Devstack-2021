@@ -22,7 +22,7 @@ nav{
     align-items: center;
     margin-left: auto;
     list-style: none;
-    font-family: 'Montserrat';
+    font-family: 'Red Hat Display';
     font-weight:500;
     margin-right:50px;
 }
@@ -105,7 +105,8 @@ nav{
    .logo{
       float: left;
         height:100%;
-        margin-left: 80px;
+        margin-left: 60px;
+        /* margin-top:8px; */
         /* justify-content: space-around; */
     display: flex;
     align-items: center;
@@ -113,8 +114,8 @@ nav{
     border-color: white; */
   }
   .logo1{
-      height:20px;
-      width:40px;
+      /* height:20px; */
+      width:270px;
   }
   .logo2{
       width:100px;
@@ -223,21 +224,21 @@ nav{
         -webkit-clip-path:circle(100px at 90% -20%);
         transition: all 0.3s ease-out 0.2s;
         pointer-events: none;
-        padding-top: 100px;
+        padding-top: 50px;
         padding-bottom: 30px;
     }
     .open.nav-links{
         
 
             background: linear-gradient(#2B0CAB,#4F4BEA);
-            height:100vh;
+            height:90vh;
             width:100%;
             flex-direction: column;
             clip-path: circle(100px at 90% -20%);
             -webkit-clip-path:circle(100px at 90% -20%);
             transition: all 0.3s ease-out;
             pointer-events: none;
-            padding-top: 100px;
+            padding-top: 0px;
             padding-bottom: 30px;
         
     }
@@ -263,10 +264,15 @@ nav{
         padding-top: 100px;
     } */
     .logo{
-        display:none;
+        /* display:none; */
+        margin-left:10px;
+        /* margin-top:10px; */
     }
     .scroller{
         display: none;
+    }
+    .logo1{
+        width:240px;
     }
 
 }

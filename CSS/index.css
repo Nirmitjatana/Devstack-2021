@@ -1,4 +1,3 @@
-
 body {
     overflow-y: scroll;
 }
@@ -11,7 +10,7 @@ body {
     background-size: cover;
     height: 100%; 
     overflow: hidden;
-    font-family: 'montserrat';
+    font-family: 'Red Hat Display';
     /* background-position: center;
     background-position-y: 0vh;
     background-size: 130vw; */
@@ -126,13 +125,13 @@ body {
     /* width:35vw; */
 }
 .devjams1 > h1{
-    font-family: 'montserrat';
+    font-family: 'Red Hat Display';
     font-size: 65px;
     font-weight: 600;
     color:#FEA1BE;
 }
 .devjams1 > h5{
-    font-family: 'montserrat';
+    font-family: 'Red Hat Display';
     color:white;
     margin-top:50px;
     margin-bottom: 50px;
@@ -175,7 +174,7 @@ body {
     text-align: center;
 }
 .speakers > h1{
-    font-family: 'montserrat';
+    font-family: 'Red Hat Display';
     font-size: 55px;
     font-weight: 600;
     color:#FEA1BE;
@@ -194,14 +193,14 @@ body {
 }   
 .col-sm > h1{
     margin-top:50px;
-    font-family: 'montserrat';
+    font-family: 'Red Hat Display';
     font-size: 35px;
     font-weight: 500;
     color:#FEA1BE;
     margin-bottom: 40px;
 }
 .col-sm > h6{
-    font-family: 'montserrat';
+    font-family: 'Red Hat Display';
     font-size: 19px;
     font-weight: 300;
     color:white;
@@ -216,6 +215,9 @@ body {
 .logos {
     margin-bottom: 40px;
 }
+/* .logo > a > img{
+    width:400px;
+} */
 .dsc{
     /* margin-right:-200px; */
     height:350px;
@@ -276,14 +278,14 @@ body {
   }
 }
 .dsckebaare > h1{
-    font-family: 'montserrat';
+    font-family: 'Red Hat Display';
     font-size: 35px;
     font-weight: 500;
     color:#FEA1BE;
     text-align: left;
 }
 .dsckebaare > h3{
-    font-family: 'montserrat';
+    font-family: 'Red Hat Display';
     font-size: 19px;
     font-weight: 300;
     color:white;
@@ -296,15 +298,15 @@ body {
 }
 .sponserheading{
     text-align: center;
-    font-family: 'montserrat';
+    font-family: 'Red Hat Display';
     font-size: 55px;
-    font-weight: 500;
+    font-weight: 600;
     color:#FEA1BE;
     margin-top:8vh;
 }
 .timelineheading{
     text-align: center;
-    font-family: 'montserrat';
+    font-family: 'Red Hat Display';
     font-size: 55px;
     font-weight: 500;
     color:#FEA1BE;
@@ -312,7 +314,7 @@ body {
 }
 .contactusheading{
     text-align: center;
-    font-family: 'montserrat';
+    font-family: 'Red Hat Display';
     font-size: 55px;
     font-weight: 600;
     color:#FEA1BE;
@@ -329,7 +331,7 @@ body {
 }
 .sponserbuttons > button{
     margin:40px;
-    width:180px;
+    width:210px;
     height:50px;
     border-radius: 40px;
     border-style: hidden;
@@ -344,14 +346,21 @@ body {
     margin:20px auto;
 }
 .poc > h2{
-    font-family: 'montserrat';
+    font-family: 'Red Hat Display';
     font-size: 30px;
     font-weight: 600;
     color:white;
     margin:12px;
 }
 .poc > h3{
-    font-family: 'montserrat';
+    font-family: 'Red Hat Display';
+    font-size: 19px;
+    font-weight: 400;
+    color:white;
+    margin:12px;
+}
+.poc > a{
+    font-family: 'Red Hat Display';
     font-size: 19px;
     font-weight: 400;
     color:white;
@@ -388,7 +397,7 @@ body {
 }
 .faqheading{
     text-align: center;
-    font-family: 'montserrat';
+    font-family: 'Red Hat Display';
     font-size: 55px;
     font-weight: 600;
     color:#FEA1BE;
@@ -396,7 +405,8 @@ body {
 }
 .faq > .row{
     width:80vw;
-    height:420px;
+    min-height: 1100px;
+    /* height:420px; */
 }
 .faq > .row > .col-4 > img{
     width:300px;
@@ -479,7 +489,7 @@ body {
 .opendev{
     color:white;
     font-weight: 200;
-    font-family: 'montserrat';
+    font-family: 'Red Hat Display';
     padding-bottom:30px;
 }
 .mainimg{
@@ -1057,13 +1067,14 @@ body {
     .opendev{
         color:white;
         font-weight: 200;
-        font-family: 'montserrat';
+        font-family: 'Red Hat Display';
         padding-bottom:30px;
     }
     .mainimg{
         width:95%;
         height:95%;
         margin-bottom: 20px;
+        padding-top:60px;
         /* margin-left:90px; */
     }
     #lefter{
@@ -1072,7 +1083,7 @@ body {
     }
     .parent{
         
-        font-family: 'montserrat';
+        font-family: 'Red Hat Display';
         background-position: center;
         background-position-y: 0vh;
         background-size: 130vw;
