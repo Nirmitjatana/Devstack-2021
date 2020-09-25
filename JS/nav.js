@@ -46,13 +46,13 @@ $(window).scroll(function() {
       if ($(this).position().top < scrollDistance + 1) {
           $('.nav-links li a.active').removeClass('active');
           $('.nav-links li a').eq(i).addClass('active');
-          tab=1;
       } 
 
   });
 }).scroll();
+$('.nav-links li a.active').removeClass('active');
+$('.nav-links li a').eq(0).addClass('active');
 
-// $('.nav-links li a').eq(0).addClass('active');
 
 
 (function($){

@@ -34,6 +34,7 @@ content="DevJams,DevStack,DevTalks,Hackathons,VIT,Vellore,Devfest,Developer Stud
 <link rel="icon" href="./Assets/favicon.png">
 <link rel="apple-touch-icon" href="./Assets/favicon.png">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="css/imagehover.min.css">
 <link rel="stylesheet" href="./CSS/index.css">
 <link rel="stylesheet" href="./CSS/nav.css">
 </head>
@@ -52,7 +53,7 @@ content="DevJams,DevStack,DevTalks,Hackathons,VIT,Vellore,Devfest,Developer Stud
           </div>
           
             <div class="logo">
-              <a href="#home" >
+              <a href="https://dscvit.com" target="_blank">
                 <img src="./Assets/logo.png" alt=""  class="logo1">
                 <!-- <img src="./Assets/DSC_logo1.png" alt="" class="logo2"> -->
               </a>
@@ -64,10 +65,11 @@ content="DevJams,DevStack,DevTalks,Hackathons,VIT,Vellore,Devfest,Developer Stud
             <li data-aos="fade-up" data-aos-duration="600" ><a href="#devtalks"  class="navigation__link">DevTalks</a></li>
             <!-- <li data-aos="fade-up" data-aos-duration="600" ><a href="#scroll"  class="navigation__link">Speakers</a></li> -->
             <li data-aos="fade-up" data-aos-duration="700" ><a href="#devjams"  class="navigation__link">DevJams</a></li>
-            <li data-aos="fade-up" data-aos-duration="800" ><a href="#aboutdsc"  class="link">AboutDSC</a></li>
+            <li data-aos="fade-up" data-aos-duration="800" ><a href="#aboutdsc"  class="link">About DSC</a></li>
             <!-- <li data-aos="fade-up" data-aos-duration="900" data-aos-anchor-placement="bottom-bottom" ><a href="#timeline"  class="link">Timeline</a></li> -->
             <!-- <li data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom" ><a href="#sponsers"  class="link">Sponsors</a></li> -->
             <li data-aos="fade-up" data-aos-duration="1100" data-aos-anchor-placement="bottom-bottom" ><a href="#contactus" class="link">Contact Us</a></li> 
+            <li data-aos="fade-up" data-aos-duration="1100" data-aos-anchor-placement="bottom-bottom" ><a href="https://dsc.community.dev/vellore-institute-of-technology" target="_blank" class="link">Join Us</a></li> 
             <!-- <li data-aos="fade-up" data-aos-duration="1100" data-aos-anchor-placement="bottom-bottom" ><a href="#faq" class="navigation__link">FAQs</a></li>  -->
         </ul>
     </nav>
@@ -116,7 +118,7 @@ content="DevJams,DevStack,DevTalks,Hackathons,VIT,Vellore,Devfest,Developer Stud
                 
             </h3>
               <div class="but3">
-                  <button onclick="window.open('https://gravitas.vit.ac.in/events.html','_blank')">Register</button>
+                  <button onclick="window.open('http://info.vit.ac.in/gravitas2020/gravitas_login.asp','_blank')">Register</button>
                   <!-- <button class="btn-2"><span>Nirmit</span></button> -->
               </div>
               <!-- <div class="white">
@@ -144,7 +146,7 @@ content="DevJams,DevStack,DevTalks,Hackathons,VIT,Vellore,Devfest,Developer Stud
                       DevTalks is an annual convention by Developer Student Clubs VIT to inspire budding developers and help broaden their knowledge in various technical and design domains in the industry by distinguished industry experts. Every year we hope that their experience, vast knowledge and journey will be a valuable learning for every individual that shall ultimately help and acquire fresh, practice-oriented perspectives on their prospective career-paths.
                     </h5>
                     <div class="but">
-                        <button data-aos="fade-up" data-aos-duration="200" onclick="window.open('https://gravitas.vit.ac.in/events.html','_blank')">Register</button>
+                        <button data-aos="fade-up" data-aos-duration="200" onclick="window.open('http://info.vit.ac.in/gravitas2020/gravitas_login.asp','_blank')">Register</button>
                     </div>
                 </div>
               </div>
@@ -155,7 +157,7 @@ content="DevJams,DevStack,DevTalks,Hackathons,VIT,Vellore,Devfest,Developer Stud
               </div>
               
             </div>
-            <!-- <div class="scroller">
+            <div class="scroller">
             <a href="#scroll">
             <svg class="arrows">
               <path class="a1" d="M0 0 L30 32 L60 0"></path>
@@ -163,52 +165,48 @@ content="DevJams,DevStack,DevTalks,Hackathons,VIT,Vellore,Devfest,Developer Stud
               <path class="a3" d="M0 40 L30 72 L60 40"></path>
             </svg>
           </a>
-        </div> -->
+        </div>
           </div>
           
-          <!-- <div class="speakers" id="scroll">
-            <br>
-            <br>
-            <br>
-            <br>
+          <div class="speakers" id="scroll">
+            <br><br><br><br>
               <h1>Speakers</h1>
               
-              <div class="grid-container1">
+              <div class="grid-container">
                 <div class="grid-item">
-                  <div class="center">
-                    <div class="front-face" id="speak1">
-                      <div class="contents front">
-                        <h1>Parth Anand</h1>
-                        <span>Web Developer</span>
-                      </div>
-                    </div>
-                    <div class="back-face">
-                      <div class="contents back">
-                        <h2>Awesome dev</h2>
-                        <span>Follow me!</span>
-                      </div>
-                    </div>
-                  </div>
+                  <figure class="imghvr-reveal-up" style="background-color:#3712dd;">
+                    <img src="./Assets/Swapnil_Borkar.jpeg">
+                    <figcaption>
+                      <h4 style="color:black; font-weight: 600;">Swapnil Borkar</h4>
+                      <h6 style="color:#3712dd; font-weight: 600;">Product Designer at CleverTap</h6>
+                      <br>
+                      <h8 style="color:black; font-weight: 200;">Swapnil borkar is a product Designer and as his friends tell him, is really rude when it comes to Design feedback.</h8>
+                    </figcaption>
+                  </figure>
                 </div>
                 <div class="grid-item">
-                  <div class="center">
-                    <div class="front-face" id="speak2">
-                      <div class="contents front">
-                        <h1>Rohit Gupta</h1>
-                        <span>Web Developer</span>
-                      </div>
-                    </div>
-                    <div class="back-face">
-                      <div class="contents back">
-                        <h2>Awesome dev</h2>
-                        <span>Follow me!</span>
-                      </div>
-                    </div>
-                  </div>
+                  <figure class="imghvr-reveal-up" style="background-color:#3712dd;">
+                    <img src="./Assets/Senthilkumar_Murugesan.jpeg">
+                    <figcaption>
+                      <h4 style="color:black; font-weight: 600;">Senthil Murugesan</h4>
+                      <h6 style="color:#3712dd; font-weight: 600;">Co-Founder of JioVio healthcare</h6><br>
+                      <h7 style="color:black; font-weight: 200;">Senthilkumar has a great passion for innovating through Technology to solve real-life problems. He has filed nearly 10+ patents for the same.</h7>
+                    </figcaption>
+                  </figure>
                 </div>
-                
+                <div class="grid-item">
+                  <figure class="imghvr-reveal-up" style="background:transparent">
+                    <img src="./Assets/Punitma_Malhotra.jpeg">
+                    <figcaption style="background-color:transparent">
+                      <h4 style="color:black; font-weight: 600;">Punitma Malhotra</h4>
+                      <h6 style="color:#3712dd; font-weight: 600;">Founder of blue Astral</h6>
+                      <br><br>
+                      <h8 style="color:black; font-weight: 200;">Punitma is not only a dedicated SW engineer. She has the skills to win your hearts and the ability to lead a team!</h8>
+                    </figcaption>
+                  </figure>
+                </div>
               </div>
-              <div class="grid-container1">
+              <!-- <div class="grid-container1">
                 <div class="grid-item">
                   <div class="center">
                     <div class="front-face" id="speak4">
@@ -242,10 +240,10 @@ content="DevJams,DevStack,DevTalks,Hackathons,VIT,Vellore,Devfest,Developer Stud
                   </div>
                 </div>
                 
-              </div>
+              </div> -->
               
               
-          </div> -->
+          </div>
 
     </div>
 

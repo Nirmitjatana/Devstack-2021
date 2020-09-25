@@ -170,7 +170,7 @@ body {
     text-align: center;
 }
 .speakers{
-    margin-top:180px;
+    margin-top:100px;
     text-align: center;
 }
 .speakers > h1{
@@ -280,7 +280,7 @@ body {
 .dsckebaare > h1{
     font-family: 'Red Hat Display';
     font-size: 35px;
-    font-weight: 500;
+    font-weight: 600;
     color:#FEA1BE;
     text-align: left;
 }
@@ -844,8 +844,8 @@ body {
     /* padding-left:140px; */
     /* text-align: center; */
     width: 75%;
-    margin: 10px auto;
-    height:500px;
+    margin: 70px auto;
+    height:300px;
   }
   .grid-container1 {
     display: grid;
@@ -902,9 +902,9 @@ body {
       padding: 0px;
       /* padding-left:140px; */
       /* text-align: center; */
-      width: 60vw;
+      width: 75vw;
       /* margin: 10px auto; */
-      height:1500px;
+      height:1000px;
     }
     .grid-container1 {
       display: grid;
@@ -1046,6 +1046,7 @@ body {
     }
     .dsckebaare > h1{
         margin-top:40px;
+        font-weight: 600;
     }
     .dsckebaare > .dist{
         padding-top:100px;
